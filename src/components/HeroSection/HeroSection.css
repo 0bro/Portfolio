@@ -1,0 +1,44 @@
+.hero-container {
+  background: url("./../../BlurredBack.png");
+  background-size: 200%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 25% 0 10% 0;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.hero-Title {
+  background: url("./../../UnblurredBack.jpg");
+  background-size: cover;
+  margin-top: 1vh;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+}
+
+.hero-Title h1 {
+  font-size: 15vw;
+  font-family: sans-serif;
+  text-align: left;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  line-height: 75%;
+  margin: 0;
+}
+#hero-words {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7%;
+}
+
+@media screen and (min-width: 840px) {
+  .hero-container {
+    background-size: auto 150%;
+    height: 100vh;
+    padding: 0;
+  }
+}
