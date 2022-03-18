@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import "./dropdown.css";
 export function Dropdown(props) {
@@ -11,17 +11,15 @@ export function Dropdown(props) {
   }
   const [toggle, setToggle] = useState(false);
 
-  //   useEffect(() => {},[]);
-
   return (
     <>
-      <div class="item">
-        <div class="toggleMenu" onClick={() => setToggle(!toggle)}>
-          {props.title && <h3>{props.title}</h3>}
+      <div className="item">
+        <div className="toggleMenu" onClick={() => setToggle(!toggle)}>
+          {props.title && <h3 id="title">{props.title}</h3>}
           {toggle ? <AiFillCaretDown /> : <AiFillCaretLeft />}
         </div>
         {toggle && (
-          <div class="menu">
+          <div className="menu">
             {props.subtitle && <h5>{props.subtitle}</h5>}
             {(props.location || props.duration) && (
               <div>

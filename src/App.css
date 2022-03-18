@@ -14,6 +14,9 @@
 * {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  
+  color: #e8bb89;
+  font-family: monaco;
 }
 
 @media (prefers-reduced-motion: no-preference) {

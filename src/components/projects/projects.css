@@ -1,0 +1,21 @@
+.projects {
+  display: flex;
+  justify-content: center;
+}
+#ProjectsContainer h1#subHeading {
+  width: 90%;
+  margin: 0 5%;
+  align-self: center;
+  border-bottom: 1px solid ;
+}
+li {
+  list-style: none;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 0;
+}

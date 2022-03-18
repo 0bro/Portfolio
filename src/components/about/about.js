@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import BaseImage from "./../../BlurredBack.png";
 import { Dropdown } from "./dropdown";
 
 export function About() {
@@ -9,22 +8,25 @@ export function About() {
       <div id="fade-to-color"></div>
       <div id="BG">
         <div id="mainContainer">
-          <div id="about">
-            <h1 className="underline">About me</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum massa velit, convallis eu dui ut, condimentum
-              condimentum metus. Donec lobortis accumsan leo, in gravida dui
-              elementum laoreet. Suspendisse potenti. Quisque suscipit pulvinar
-              ligula, at semper nunc posuere eu. Ut maximus dui quis odio cursus
-              aliquet. Maecenas dapibus sodales odio at hendrerit. In viverra,
-              turpis quis tincidunt hendrerit, augue orci pretium arcu, sed
-              tristique nisi arcu in augue. Donec ullamcorper molestie sodales.
-              Nunc orci lorem, vestibulum aliquam egestas ac, ultrices in ex.
-            </p>
-          </div>
+          <h2 className="underline">About me</h2>
+          <p>
+            A tireless developer that works against the clock to squeeze as much
+            learning into a day, I have explored software development and web
+            development very early into my life. At the age of 15, I explored
+            DOS operating system, in high school I taught myself Java to
+            experiment in game development, and app development. I was able to
+            create a simple craps game with a open source game engine. Coming
+            into College my previous experince with DOS helped me with the
+            Linux/Unix operating system, and my experience with Java put me
+            ahead of my peers, which made me more passionate to fill the gaps in
+            my knowledge. With my work experience I developed team building,
+            team leadership, analytical thinking, problem solving, and pattern
+            recognition skills, which put me on the right path to help peers
+            with their own technical developement.
+            <br />
+          </p>
 
-          <h1 className="underline">Education and Training</h1>
+          <h2 className="underline">Education and Training</h2>
 
           <Dropdown
             title="Computer Programming & Analysis Program"
@@ -48,7 +50,18 @@ export function About() {
             ]}
           />
 
-          <h1 className="underline">Experience</h1>
+          <Dropdown
+            title="React.js Developer Certificate "
+            subtitle="Linked in-Learning"
+            duration="Dec 2021"
+            items={[
+              "Developing modular programming practices to create websites that are highly dynamic and interactive",
+              "Practiced fast tracking projects by learning to work in an agile workflow outside of school to achieve personal success",
+              "Designed components that are highly flexible",
+            ]}
+          />
+
+          <h2 className="underline">Experience</h2>
           <Dropdown
             title="Data Analyst Intern"
             subtitle="Freestyle Social"

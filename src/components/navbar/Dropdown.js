@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css";
+import "./navbar.css";
 import { Link } from "react-router-dom";
 
 export function Dropdown({ clicked }) {
@@ -24,15 +24,6 @@ export function Dropdown({ clicked }) {
           to="/Projects"
         >
           Projects
-        </Link>
-        <Link
-          onClick={() => {
-            onClick(!click);
-          }}
-          className="menu--item"
-          to="/Contact"
-        >
-          Contact
         </Link>
       </div>
     </>

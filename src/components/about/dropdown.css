@@ -1,5 +1,7 @@
-h3 {
+h3#title {
     width: 90%;
+    margin-bottom: 30px;
+
 }
 .item div.toggleMenu {
   display: flex;
@@ -11,4 +13,4 @@ h3 {
       text-decoration: underline;
     justify-content: space-between;
   }
-  
+

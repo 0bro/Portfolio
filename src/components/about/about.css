@@ -1,6 +1,6 @@
 div#fade-to-color {
   background: linear-gradient(to top, rgb(24, 32, 23) 20%, rgba(24, 32, 23, 0));
-  margin-top: -20%;
+  margin-top: -30%;
   height: 100px;
 }
 
@@ -15,7 +15,6 @@ div#mainContainer {
   font-size: 1.5rem;
   background-color: rgb(24, 32, 23);
   display: flex;
-  position: absolute;
   flex-direction: column;
   padding: 7%;
   font-family: monospace;
@@ -25,8 +24,8 @@ h3 {
   text-decoration: underline;
 }
 
-.underline{
-  border-bottom: 1px solid  ;
+.underline {
+  border-bottom: 1px solid;
 }
 
 div#mainContainer p {
@@ -36,7 +35,20 @@ div#mainContainer p {
 li {
   font-size: 10px;
 }
-
+@media screen and (min-width: 600px) {
+  div#fade-to-color {
+    margin-top: -10%;
+  }
+  #about h1 {
+    font-size: 40px;
+  }
+  div#mainContainer p {
+    font-size: 20px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
 /* * {
   margin: 0px;
   padding: 0px;

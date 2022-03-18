@@ -10,7 +10,6 @@ Link {
   text-decoration: none;
 }
 
-
 .navbar--subContainer {
   display: flex;
   justify-content: space-between;
@@ -52,7 +51,7 @@ Link {
     display: flex;
     flex-direction: column;
   }
-  
+
   .navbar--subContainer {
     display: flex;
     justify-content: space-between;
@@ -76,7 +75,6 @@ Link {
     font-family: monaco;
   }
   .Logo {
-
     text-decoration: none;
     font-family: monaco;
     color: #e8bb89;
@@ -84,4 +82,3 @@ Link {
     align-self: center;
   }
 }
-

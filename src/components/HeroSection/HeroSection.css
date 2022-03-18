@@ -12,12 +12,15 @@
 }
 
 .hero-Title {
+
   background: url("./../../UnblurredBack.jpg");
   background-size: cover;
   margin-top: 1vh;
   color: #fff;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
   padding: 0;
 }
 
