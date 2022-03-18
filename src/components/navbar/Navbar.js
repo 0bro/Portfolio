@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+// import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import { Dropdown } from "./dropdown";
+// import { Dropdown } from "./dropdown";
 
 export function Navbar() {
-  const [click, onClick] = useState(false);
+  // const [click, onClick] = useState(false);
   const [button, onButton] = useState(true);
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -51,4 +51,3 @@ export function Navbar() {
     </div>
   );
 }
-export default Navbar;
