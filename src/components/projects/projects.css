@@ -1,6 +1,7 @@
 .projects {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 #ProjectsContainer h1#subHeading {
   width: 90%;

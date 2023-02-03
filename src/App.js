@@ -12,12 +12,7 @@ function App() {
         <Navbar />
         <HeroSection />
         <About />
-        <Projects />
-        <Routes>
-          <Route path="/about"></Route>
-          <Route path="/projects"></Route>
-          <Route path="/" exact></Route>
-        </Routes>
+        {/* <Projects /> */}
       </Router>
     </>
   );
